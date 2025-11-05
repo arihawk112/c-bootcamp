@@ -1,5 +1,6 @@
 #include "utils.h"
 #include <iostream>
+#include <string>
 
 namespace Utils {
     void printMessage() {

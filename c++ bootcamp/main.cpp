@@ -1,5 +1,7 @@
 #include <iostream>
 #include "utils.h"
+#include <string>
+#include "Car.h"
 
 int main() {
     Utils::printMessage();
@@ -9,4 +11,16 @@ int main() {
     std::cout << "You entered: " << msg << std::endl;
 	std::string name = Utils::getUserName();
     std::cout << "Hello, " << name << "!" << std::endl;
+
+    Car myCar("BMW", "530i", 2003);
+    Car tempCar = Car::createFromUserInput();
+
+	myCar.displayCarInfo();
+	tempCar.displayCarInfo();
+
+    myCar.promptSetMake();
+	myCar.displayCarInfo(); 
+	
+
+
 }

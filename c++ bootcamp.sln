@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++ bootcamp", "c++ bootcam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ bootcamp day2", "C++ bootcamp day2\C++ bootcamp day2.vcxproj", "{5F4E42CD-724F-4AC5-B730-0ADF3FDC7494}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day3", "Day3\Day3.vcxproj", "{922A03AD-10BD-4C4C-B401-D722663FB9CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5F4E42CD-724F-4AC5-B730-0ADF3FDC7494}.Release|x64.Build.0 = Release|x64
 		{5F4E42CD-724F-4AC5-B730-0ADF3FDC7494}.Release|x86.ActiveCfg = Release|Win32
 		{5F4E42CD-724F-4AC5-B730-0ADF3FDC7494}.Release|x86.Build.0 = Release|Win32
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Debug|x64.ActiveCfg = Debug|x64
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Debug|x64.Build.0 = Debug|x64
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Debug|x86.Build.0 = Debug|Win32
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Release|x64.ActiveCfg = Release|x64
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Release|x64.Build.0 = Release|x64
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Release|x86.ActiveCfg = Release|Win32
+		{922A03AD-10BD-4C4C-B401-D722663FB9CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

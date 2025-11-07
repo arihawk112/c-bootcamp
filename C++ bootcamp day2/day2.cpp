@@ -34,7 +34,7 @@ int main() {
 
 	std::cout << temp1 << " " << temp2 << std::endl;
 
-    // Pointer
+    // Pointers
 	double* vPtr = &voltage; //basic declaration of pointer, double* indicates double pointer, and &voltage gets the mem. address of voltage
 	*vPtr = 3.7; //dereferencing pointer to change the value at that address
 

@@ -7,7 +7,7 @@ enum class DeviceState {
     Active,
     Error
 };
-
+//
 struct Sensor {
     std::string name;
     int reading;

@@ -41,17 +41,10 @@ std::string toString(DeviceState state)
 
 void printSensor(const Sensor& s) {
 	std::string statetemp = toString(s.state);
-    std::cout << "Sensor: " << s.name
+    std::cout << "Sensor: " << s.name                     
         << " | Reading: " << s.reading
         << " | State: " << statetemp;
 
-/*    switch (s.state) {
-    case DeviceState::Idle:   std::cout << "Idle"; break;
-    case DeviceState::Active: std::cout << "Active"; break;
-    case DeviceState::Error:  std::cout << "Error"; break;
-    }
-            
-    */
     std::cout << std::endl;
 }
 //added method to count sensors in Error state

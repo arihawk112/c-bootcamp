@@ -73,8 +73,6 @@ int main() {
         {"Pressure", 101, DeviceState::Idle},
         {"Voltage", 0, DeviceState::Error}
     } };
-    int test = 1;
-    int test2 = 2;
     for (const auto& s : sensors) {
         printSensor(s);
     }

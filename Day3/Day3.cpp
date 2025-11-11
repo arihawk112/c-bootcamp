@@ -7,7 +7,7 @@ enum class DeviceState {
     Active,
     Error
 };
-//
+//commit test
 struct Sensor {
     std::string name;
     int reading;
@@ -26,7 +26,7 @@ void stateChanger(Sensor& s)
         }
 }
 
-//DeviceState to string conversion fuction
+//DeviceState to string conversion fuctions.
 std::string toString(DeviceState state)
 {
     switch (state) {
@@ -34,6 +34,7 @@ std::string toString(DeviceState state)
     case DeviceState::Active: return "Active";
     case DeviceState::Error:  return "Error";
     default:                  return "Unknown";
+
 	}
 }
 
@@ -72,7 +73,8 @@ int main() {
         {"Pressure", 101, DeviceState::Idle},
         {"Voltage", 0, DeviceState::Error}
     } };
-
+    int test = 1;
+    int test2 = 2;
     for (const auto& s : sensors) {
         printSensor(s);
     }

@@ -5,7 +5,7 @@ enum class DeviceState { Idle, Active, Error };
 
 class Sensor {
 public:
-    Sensor(int id, DeviceState initialState);  // constructor
+    Sensor(int id, DeviceState initialState);  // constructor/
     ~Sensor();                                 // destructor
 
     void activate();
